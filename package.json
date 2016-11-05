@@ -31,12 +31,12 @@
     "email": "erz@yahoo-inc.com"
   },
   "dependencies": {
-    "preceptor-core": "0.9.3",
-    "blink-diff": "1.0.7",
-    "kobold-core": "0.9.2",
+    "blink-diff": "^1.0.13",
+    "kobold-core": "^0.9.2",
     "log4js": "0.6.20",
-    "promise": "6.0.0",
-    "mocha": "1.21.4"
+    "mocha": "1.21.4",
+    "preceptor-core": "^0.9.6",
+    "promise": "6.0.0"
   },
   "devDependencies": {
     "chai": "1.9.1",
