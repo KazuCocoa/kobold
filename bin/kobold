@@ -17,8 +17,10 @@ function runMocha (argv) {
 	process.argv = argv;
 	process.argc = argv.length;
 
-	// Run Mocha
-	require(path.join(__dirname, '..', 'node_modules', 'mocha', 'bin', '_mocha'));
+	// Run Mocha under node_modules installed via package.js
+	// require(path.join(__dirname, '..', 'node_modules', 'mocha', 'bin', '_mocha'));	
+	require(path.join(__dirname, '../../..', 'node_modules', 'mocha', 'bin', '_mocha'));
+
 }
 
 
